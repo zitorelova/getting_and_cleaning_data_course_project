@@ -1,6 +1,6 @@
 # Codebook 
 
-The data used for this project can be downloaded at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+The data used for this project can be downloaded at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. <br />
 A detailed overview of the data can also be downloaded from the site.
 
 ## Variables
@@ -25,8 +25,8 @@ A detailed overview of the data can also be downloaded from the site.
 * fBodyGyroJerkMag
 
 ## Cleaning and Transformation 
-To come up with the tidy data set included here, I first combined the training and test sets into one larger data set. 
-After this, I extracted the measurements corresponding to mean and standard deviation for each of the variables. 
-I then labelled each of the activities with a descriptive name instead of just a number value. 
+To come up with the tidy data set included here, I first combined the training and test sets into one larger data set. <br />
+After this, I extracted the measurements corresponding to mean and standard deviation for each of the variables. <br />
+I then labelled each of the activities with a descriptive name instead of just a number value. <br />
 Lastly, I grouped the data into activity and subject number and took the average of each of the variables to arrive at the final data set. 
 
